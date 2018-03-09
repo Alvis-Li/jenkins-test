@@ -14,5 +14,7 @@ properties([
 ])
 
 node('cloud') {
-  echo "Node label"
+  timestamps {
+    echo "Node label"
+  }
 }
