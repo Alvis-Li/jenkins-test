@@ -1,6 +1,6 @@
 #!groovy
 
-node('cloud') {
+node('Jenkins') {
   timestamps {
     echo "Node label"
   }
