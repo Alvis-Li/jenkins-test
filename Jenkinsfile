@@ -1,7 +1,7 @@
 #!groovy
 
-node('Jenkins') {
-  timestamps {
+node('node') {
+  stage('pull code') {
     echo "Node label"
   }
 }
